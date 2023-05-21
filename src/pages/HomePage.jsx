@@ -1,6 +1,12 @@
 import Hero from '../components/Hero';
 import Nav from '../components/Nav';
 
+import bg1 from '../assets/iPhone14ProHero.png';
+import bg2 from '../assets/iPhone14Hero.png';
+import bg3 from '../assets/WatchSeries8Hero.png';
+
+import watch8 from '../assets/watch8.png';
+
 const HomePage = () => {
     return (
         <>
@@ -20,7 +26,10 @@ const HomePage = () => {
                     </p>
                 </nav>
             </div>
-            <Hero />
+
+            <Hero bg={bg1} head="Pro. Beyond." headerLogo="iPhone 14 Pro" textColor="white" />
+            <Hero bg={bg2} head="Wonderfull." headerLogo="iPhone 14" textColor="black" />
+            <Hero bg={bg3} head="A healthy leap ahead." logo={watch8} textColor="white" />
         </>
     );
 };
