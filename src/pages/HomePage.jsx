@@ -27,9 +27,9 @@ const HomePage = () => {
                 </nav>
             </div>
 
-            <Hero bg={bg1} head="Pro. Beyond." headerLogo="iPhone 14 Pro" textColor="white" />
-            <Hero bg={bg2} head="Wonderfull." headerLogo="iPhone 14" textColor="black" />
-            <Hero bg={bg3} head="A healthy leap ahead." logo={watch8} textColor="white" />
+            <Hero bg={bg1} head="Pro. Beyond." headerLogo="iPhone 14 Pro" textColor="white" textPlace="over" />
+            <Hero bg={bg2} head="Wonderfull." headerLogo="iPhone 14" textColor="black" textPlace="over" />
+            <Hero bg={bg3} head="A healthy leap ahead." logo={watch8} textColor="white" textPlace="over" />
         </>
     );
 };
