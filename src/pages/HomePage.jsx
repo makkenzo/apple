@@ -17,6 +17,7 @@ import watch8 from '../assets/watch8.png';
 import tradeInLogo from '../assets/logo_tradein__d1fpktgipvki_large.png';
 import wwdcLogo from '../assets/promo_logo_wwdc23__gcsmmrgbhlme_large.png';
 import iCard from '../assets/logo__dcojfwkzna2q_large.png';
+import Carousel from '../components/Carousel';
 
 const HomePage = () => {
     return (
@@ -91,6 +92,8 @@ const HomePage = () => {
                     btn2="Apply now"
                 />
             </div>
+
+            <Carousel />
         </>
     );
 };
